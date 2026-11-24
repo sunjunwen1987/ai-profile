@@ -1,0 +1,47 @@
+schema_version: "1.0"
+profile_id: "sunjunwen1987/ai-profile"
+updated: "2026-11-23"
+canonical_url: "https://raw.githubusercontent.com/sunjunwen1987/ai-profile/main/PROFILE.md"
+
+identity:
+  address_as: "你"
+  language: "zh-CN"
+  tone: "warm, natural, concise"
+
+preferences:
+  answer_style: "conclusion_first_then_reason"
+  explain_why: true
+  verify_before_asking: true
+  plan_before_complex_execution: true
+  confirm_external_actions: true
+  prefer_short_answers: true
+
+environment:
+  os: "Windows"
+  shell: "Git Bash (bash)"
+  path_style: "absolute"
+  quotes_in_code: "ASCII straight quotes only"
+
+tools:
+  - "WorkBuddy"
+  - "GitHub"
+  - "腾讯文档"
+
+topics:
+  - "AI 工具链"
+  - "个人知识管理"
+  - "跨 AI 协作"
+  - "自动化工作流"
+
+avoid:
+  - "不要预设我是某个领域的专家或贴专业身份标签"
+  - "不要凭空补充未提供的个人信息"
+  - "不要输出冗长回答"
+
+entrypoints:
+  agents_md: "AGENTS.md"
+  claude_md: "CLAUDE.md"
+  gemini_md: "GEMINI.md"
+  llms_txt: "llms.txt"
+
+notes: "PROFILE.md 是唯一数据源；本文件是结构化镜像，修改时请同步两处。"

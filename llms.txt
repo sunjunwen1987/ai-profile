@@ -1,0 +1,15 @@
+# sunjunwen1987 · 个人 AI 档案
+
+> 一份给 AI 看的个人协作说明：语言与称呼、沟通风格、技术环境、协作偏好、明确禁忌，以及常用工具与关注方向。任何 AI 在开始协作前应先读取主档案，并遵守其中的约定。
+
+主档案（唯一数据源，务必先读）：
+
+- [PROFILE.md](https://raw.githubusercontent.com/sunjunwen1987/ai-profile/main/PROFILE.md): 完整档案，人与 AI 都可读
+- [profile.yaml](https://raw.githubusercontent.com/sunjunwen1987/ai-profile/main/profile.yaml): 结构化版本，供程序 / API 消费
+- [README.md](https://raw.githubusercontent.com/sunjunwen1987/ai-profile/main/README.md): 使用说明、更新方式与各 AI 的加载方法
+
+## 各 AI 的入口文件
+
+- [AGENTS.md](https://raw.githubusercontent.com/sunjunwen1987/ai-profile/main/AGENTS.md): Codex / 通用 coding agent
+- [CLAUDE.md](https://raw.githubusercontent.com/sunjunwen1987/ai-profile/main/CLAUDE.md): Claude Code
+- [GEMINI.md](https://raw.githubusercontent.com/sunjunwen1987/ai-profile/main/GEMINI.md): Gemini CLI
